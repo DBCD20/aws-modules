@@ -34,20 +34,8 @@ variable "tags" {
   default     = null
 }
 
-variable "enable_ssm" {
-  description = "Enable private access on ec2 instance using session manager."
-  type        = bool
-  default     = false
-}
-
 variable "enable_nat" {
   description = "Allow creation of NAT gateway for private instance to communicate to the internet."
   type        = bool
   default     = false
-}
-
-variable "enable_flow_logs" {
-  description = "Enable VPC flow logs."
-  type        = bool
-  default     = true
 }
