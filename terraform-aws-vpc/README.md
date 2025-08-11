@@ -34,4 +34,8 @@ module "vpc_networking" {
   region               = "us-east-1"
   availability_zones   = ["us-east-1a", "us-east-1b"]
 }
+```
 
+# Parameters
+ 
+Checkout the available parameters [here]('./parameters.md')
