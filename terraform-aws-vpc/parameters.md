@@ -69,7 +69,7 @@ No modules.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 6.3.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | ~> 6.3.0 |
 
 ## Modules
 
@@ -99,9 +99,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_cidr_block"></a> [cidr\_block](#input\_cidr\_block) | CIDR block to be used by the vpc. | `string` | n/a | yes |
 | <a name="input_database_subnets"></a> [database\_subnets](#input\_database\_subnets) | Private subnets dedicated to database | `list(string)` | `[]` | no |
-| <a name="input_enable_flow_logs"></a> [enable\_flow\_logs](#input\_enable\_flow\_logs) | Enable VPC flow logs. | `bool` | `true` | no |
 | <a name="input_enable_nat"></a> [enable\_nat](#input\_enable\_nat) | Allow creation of NAT gateway for private instance to communicate to the internet. | `bool` | `false` | no |
-| <a name="input_enable_ssm"></a> [enable\_ssm](#input\_enable\_ssm) | Enable private access on ec2 instance using session manager. | `bool` | `false` | no |
 | <a name="input_environment"></a> [environment](#input\_environment) | Name of environment | `string` | n/a | yes |
 | <a name="input_private_subnets"></a> [private\_subnets](#input\_private\_subnets) | Private subnets of VPC e.g 10.0.1.0/24, 10.0.2.0/24 | `list(string)` | n/a | yes |
 | <a name="input_project_name"></a> [project\_name](#input\_project\_name) | n/a | `string` | n/a | yes |
