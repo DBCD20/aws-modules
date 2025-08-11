@@ -1,0 +1,12 @@
+---
+exclude:
+  - aws-ec2-no-public-ip-subnet # Allow public ingress rules for VPC
+  - aws-iam-no-policy-wildcards # Allow IAM policies with wildcards for flexibility
+  - aws-ec2-require-vpc-flow-logs-for-all-vpcs # Exclude VPC Flow Logs requirement for all VPCs
+# Optional: Add custom severity levels
+# severity_overrides:
+#   aws-vpc-no-public-ingress-acl: LOW
+#   aws-vpc-no-public-egress-acl: LOW
+
+# Optional: Add custom minimum severity level
+# min_severity: MEDIUM
