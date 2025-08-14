@@ -40,4 +40,4 @@ module "vpc" {
 }
 ```
 
-> 🛠️ This README and some module documentation were created with the help of ChatGPT to improve clarity and consistency across modules.
+🛠️ This README and some module documentation were created with the help of  `ChatGPT` to improve clarity and consistency across modules.
